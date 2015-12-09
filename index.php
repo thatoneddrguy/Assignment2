@@ -48,6 +48,9 @@
             Hours: <input type="text" <?php if($emp_ID_found) echo "value=".$emp_hours ?> readonly><br>
             <input type="submit" value="Lookup">
         </form>
-        
+		<br>
+		<a href="index_alt.php">Alternate version (uses only number)</a>
+		<br>
+        ^Is the value entered into the Employee ID field supposed to be only the number, or the word "Emp1", "Emp2", etc? I have attached 2 versions just in case.
     </body>
 </html>
